@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import { Stack, Container, Form, Button } from "react-bootstrap";
+//import { Stack, Container, Form, Button } from "tailwindcss";
 
 import firebaseApp from "../credenciales-firebase";
 import {
@@ -9,7 +10,7 @@ import {
     signInWithRedirect,
     GoogleAuthProvider    
 } from "firebase/auth";
-import { async } from "@firebase/util";
+
 const auth = getAuth(firebaseApp);
 const googleProvider = new GoogleAuthProvider();
 
