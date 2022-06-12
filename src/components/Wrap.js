@@ -6,7 +6,7 @@ import { getAuth,signOut } from "firebase/auth";
 import { Container, Button } from "react-bootstrap";
 const auth = getAuth(firebaseApp);
 
-export const Home = () => {
+export const Wrap = () => {
     return  <Container>
         <h4>
         Hola, sesión iniciada
@@ -18,4 +18,3 @@ export const Home = () => {
     </Container>   
     
 }
-
