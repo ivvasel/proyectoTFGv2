@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
+/*import React, { useState, useEffect } from "react";
 import { Wrap } from "./components/Wrap";
 import { Login } from "./components/Login";
 import Nav from "./components/Nav";
 import Header from "./components/Header";
 import 'flowbite';
 
-import firebaseApp from "./credenciales-firebase";
+import firebaseApp from "./firebase/credenciales-firebase";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 const auth = getAuth(firebaseApp);
 
@@ -47,3 +47,4 @@ function App() {
 }
 
 export default App;
+*/

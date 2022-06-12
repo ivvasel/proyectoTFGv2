@@ -1,6 +1,6 @@
 import React from "react";
 
-import firebaseApp from "../credenciales-firebase";
+import firebaseApp from "../firebase/credenciales-firebase";
 import { getAuth,signOut } from "firebase/auth";
 
 import { Container, Button } from "react-bootstrap";

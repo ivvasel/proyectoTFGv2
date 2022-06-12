@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import { Stack, Container, Form, Button } from "react-bootstrap";
 //import { Stack, Container, Form, Button } from "tailwindcss";
 
-import firebaseApp from "../credenciales-firebase";
+import firebaseApp from "../firebase/credenciales-firebase";
 import {
     getAuth, 
     createUserWithEmailAndPassword, 
